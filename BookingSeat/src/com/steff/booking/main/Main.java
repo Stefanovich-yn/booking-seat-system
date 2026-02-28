@@ -59,7 +59,7 @@ public class Main {
 				scanner.close();
 				return;
 			default:
-				System.out.println("Invalid option. Please try again");
+				System.out.println("Invalid option! Please try again.");
 				break;
 			}
 		}
@@ -145,3 +145,4 @@ public class Main {
 		System.out.println("Booked seats: " + bookedCount);
 	}
 }
+
